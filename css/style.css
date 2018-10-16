@@ -103,7 +103,7 @@ h1 {
 	font-size: 38px;
 	font-style: normal;
 	font-weight: 500;
-	line-height: 26.4px;
+	/*line-height: 26.4px;*/
 	padding: 0.5cm 1cm 0.5cm 1cm;
 	text-align:center;
 }
