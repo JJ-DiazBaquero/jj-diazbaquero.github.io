@@ -31,6 +31,17 @@
         ga('send', 'pageview');
 
     </script>-->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-127646023-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-127646023-1');
+    </script>
+
 </head>
 <body style="margin-bottom: 2cm;">
 <div>
@@ -48,6 +59,7 @@
         <div >
             <h3><a class="link" href="#interests">Interests</a></h3>
             <h3><a class="link" href="#portfolio">Projects</a></h3>
+            <h3><a class="link" href="#currentProjects">Current Projects</a></h3>
             <h3><a class="link" href="#publications">Publications</a></h3>
             <h3><a class="link" href="#presentations">Presentations</a></h3>
             <h3><a class="link" href="#vita">Vita</a></h3>
@@ -653,22 +665,24 @@
 
                             </div>
                             <p>
-                                This was developed with data from the University of Stuttgart, my problem is to learn lots
-                                of new vocabulary, but I didn't know which words would be most useful ones to start learning.
+                                This was developed with data from Das Institut für Deutsche Sprache, my problem is to learn lots
+                                of new vocabulary, but I didn't know which words would be most useful to start learning.
                                 So I decided to create an app that allowed me to identify and prioritize words for me to learn.
                             </p>
                             <p>Everything is made with R, I use the framework Shiny to make it web and shinyapps.io to host it,
                                 I also use the API of openthesaurus.com that shows me related terms and examples of a certain word.
                             </p>
                             <p>If you want to help me make it better, or have a cool idea of what can I do to make it cooler,
-                                feel free to contact me, I have not yet uploaded the source code, but my intention is it to be
-                                open for everybody.
+                                feel free to contact me, I have not yet uploaded the source code, but I will in the near future.
+                                My intention is it to be free and open for everybody.
                             </p>
                             <p>PSDT: If it its useful for you, you can play with the demo :) </p>
                             <ul class="list-inline">
                                 <li>Date: Since June 2018</li>
                                 <li>Demo: <a target="_blank" href="https://aire.shinyapps.io/vzGermanCommonWords/">
                                     aire.shinyapps.io/vzGermanCommonWords/</a></li>
+                                <li>Data Source: <a target="_blank" href="http://www1.ids-mannheim.de/kl/projekte/methoden/derewo.html">
+                                    www1.ids-mannheim.de/kl/projekte/methoden/derewo.html</a></li>
                                 <li>Category: Data Visualization</li>
                             </ul>
                             <button class="btn btn-primary" data-dismiss="modal" type="button">
